@@ -5,6 +5,67 @@ body {
 	font-size: 20px;
 }
 
-.jumbotron {
-	background-color: #aaa;
+
+.navbar {
+	background-color: #722872 !important;
+	height: 80px;
+	font-size: 13px;
+}
+
+.navbar-brand img {
+	height: 50px;
+	margin: 0 auto;
+}
+
+.nav-pills {
+	margin: 15px auto;
+	font-weight: bold;
+}
+
+.nav li a {
+	padding: 10px 20px;
+	line-height: 20px;
+}
+
+.panel {
+	margin-top: 75px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.panel .panel-heading {
+	background: #aaa;
+	color: #fff;
+}
+
+#head-text {
+	margin: 60px 10px 40px 10px;
+}
+
+.intro-text {
+	text-align: right;
+	margin: 30px;
+}
+
+.star-bright {
+	display: block;
+	text-align: right;
+	border-color: #fff;
+	margin:40px auto 30px;
+	max-width: 512px;
+	border-top: solid 5px;
+}
+
+.skills {
+	font-size: 25px;
+	text-align: right;
+}
+
+
+footer {
+	display:block;
+	margin-top: -30px;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
 }

@@ -7,9 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Build a Personal Portfolio Webpage</title>
 
-	<!-- Latest compiled and minified CSS  -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="porfolio.css">
+  	<!-- Latest compiled and minified CSS  -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="porfolio.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,22 +20,80 @@
   </head>
   
   <body>
-	<div class="container">
-		<div class="jumbotron">
-			<div class="title">
-				<div class="row">
-					<div class="col-xs-8">
-						<p class="text-right">Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
-					</div>
-					<div class="col-xs-4">
-						<img src="http://qlip.in/images/avatar.jpg" class="img-circle" alt="personal photo" width="250">
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>	
-	</div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="row">
+        <div class="col-xs-2">
+          <div class="navbar-header navbar-right">
+            <a class="navbar-brand" href="#top">
+              <img src="http://qlip.in/images/qlip.png" alt="qlip | UI/UX Design and Development" title="qlip | UI/UX Design and Development">
+            </a>
+          </div>
+        </div>
 
+        <div class="col-xs-8">
+          <ul class="nav nav-pills navbar-right">
+            <li role="presentation" class="active"><a href="#top">ABOUT</a></li>
+            <li role="presentation"><a href="#middle">PROFOLIO</a></li>
+            <li role="presentation"><a href="#bottom">CONTACT</a></li>
+          </ul>
+        </div>  
+      </div>
+    </nav>
+
+    <div class="panel panel-default">
+      <div class="panel-heading" id="top">
+        <div class="row" id="head-text">
+          <div class="col-xs-8">
+            <p class="intro-text">Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+            <hr class="star-bright"></hr>
+            <p class="skills">Web Developer - User Experience Designer - Graphic Artist</p>
+          </div>
+          <div class="col-xs-4">
+            <img src="http://qlip.in/images/avatar.jpg" class="img-circle" alt="personal photo" width="250">
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-xs-8">
+            <p class="text-right">Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+          </div>
+          <div class="col-xs-4">
+            <img src="http://qlip.in/images/avatar.jpg" class="img-circle" alt="personal photo" width="250">
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-footer">
+        <div class="row">
+          <div class="col-xs-8">
+            <p class="text-right">Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+          </div>
+          <div class="col-xs-4">
+            <img src="http://qlip.in/images/avatar.jpg" class="img-circle" alt="personal photo" width="250">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div id="footer-above">
+          ABOUT THIS PAGE
+          <hr>
+          <p>line 1</p>
+          <hr>
+          <p>line2 </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div id="footer-below">
+          qlip © 2017. All Rights Reversed
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
