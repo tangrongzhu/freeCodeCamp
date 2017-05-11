@@ -48,17 +48,26 @@ body {
 }
 
 .star-bright {
-	display: block;
-	text-align: right;
 	border-color: #fff;
 	margin:40px auto 30px;
 	max-width: 512px;
 	border-top: solid 5px;
 }
 
+/*.star-bright:before {
+    content: "</>"; /* Insert content that looks like bullets */
+    right: -10px;
+    border-color: #fff; /* Or a color you prefer */
+	display: inline-block;
+	position: relative;
+	font-size: 30px;
+	font-style: bold;
+}*/
+
 .skills {
 	font-size: 25px;
 	text-align: right;
+
 }
 
 
