@@ -99,34 +99,42 @@
         <h2 class="text-center">CONTACT ME</h2>
         <hr class="star-bright"></hr>
         <div class="row">
-          <div class="col-md-6">.col-md-4</div>
+          <div class="col-md-6 contactform">
+            <form>
+              <input type="text" name="field1" placeholder="Name" />
+              <input type="text" name="field2" placeholder="Email Address" />
+              <input type="text" name="field3" placeholder="Phone Number" />
+              <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+              <input type="button" value="Send" />
+            </form>
+          </div>
           <div class="col-md-6">
             <p class="text-left">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
             <br>
             <p>I promise to reply A.S.A.P.</p>
-            <br>
-          </div>
-          
+            <br><br><br><br><br><br><br><br>
+            <p>Note: No spam/soliciting pour moi, merci :)<p><br>
+          </div>     
         </div>
-
-
     </div>
 
-    <footer>
-      <div class="container">
-        <div id="footer-above">
-          ABOUT THIS PAGE
-          <hr>
-          <p>line 1</p>
-          <hr>
-          <p>line2 </p>
-        </div>
-      </div>
+    <footer>  
+      <div id="footer-above">
+        <div class="row">
+          <div class="col-xs-6">
+            <h3>ABOUT THIS PAGE</h3>
+            <p>Made with <span class="glyphicon glyphicon-glass"></span> and <span class="glyphicon glyphicon-music"></span><br>
+            by Rongzhu</p>
+          </div>
+          <div class="col-xs-6">
+            <h3>ABOUT THIS WEB</h3>
 
-      <div class="container">
-        <div id="footer-below">
-          qlip © 2017. All Rights Reversed
-        </div>
+          </div>
+        </div> 
+      </div>            
+
+      <div id="footer-below">
+        <p>qlip © 2017. All Rights Reversed</p>
       </div>
     </footer>
 
@@ -134,5 +142,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+  <!--     <script type="text/javascript">
+      //auto expand textarea
+      function adjust_textarea(h) {
+          h.style.height = "20px";
+          h.style.height = (h.scrollHeight)+"px";
+      }
+    </script> -->
   </body>
 </html>
