@@ -74,14 +74,8 @@ h3{
 }
 
 .contactform input[type="text"],
-.contactform input[type="date"],
-.contactform input[type="datetime"],
 .contactform input[type="email"],
 .contactform input[type="number"],
-.contactform input[type="search"],
-.contactform input[type="time"],
-.contactform input[type="url"],
-.contactform input[type="password"],
 .contactform textarea,
 .contactform select 
 {
